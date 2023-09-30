@@ -36,4 +36,3 @@ node -v
 4. Open a terminal in the project folder.
 5. Run 'npm install' (or just npm i) to install the dependencies.
 6. Run 'npm run dev' to start the project.
-
