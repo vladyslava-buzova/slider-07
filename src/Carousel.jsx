@@ -1,22 +1,19 @@
 import React from 'react';
-import { shortList, list, longList } from "./data";
+import { shortList } from "./data";
 import { useState } from "react";
 import { FaQuoteRight } from 'react-icons/fa';
 import { FiChevronLeft, FiChevronRight} from 'react-icons/fi';
 
 export const Carousel = () => {
-  const [people, setPeople] = useState(list);
+  const [people, setPeople] = useState(shortList);
 
-  const prevSlide = () => {
+  // const prevSlide = () => {
 
+  // }
 
-
-  }
-
-  const nextSlide = () => {
+  // const nextSlide = () => {
     
-
-  }
+  // }
 
   return (
     <section className='slider-container'>
