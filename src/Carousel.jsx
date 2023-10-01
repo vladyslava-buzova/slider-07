@@ -5,15 +5,15 @@ import { FaQuoteRight } from 'react-icons/fa';
 import { FiChevronLeft, FiChevronRight} from 'react-icons/fi';
 
 export const Carousel = () => {
-  const [people] = useState(shortList);
+  const [people, setPeople] = useState(shortList);
 
-  // const prevSlide = () => {
+  const prevSlide = () => {
 
-  // }
+  }
 
-  // const nextSlide = () => {
+  const nextSlide = () => {
     
-  // }
+  }
 
   return (
     <section className='slider-container'>
